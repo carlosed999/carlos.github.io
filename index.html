@@ -2,26 +2,57 @@
 <html>
 
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site 2024</title>
+    <title>Atividade PG web</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-            color: #333;
+            
+            width: 100%;
+            color: rgb(0, 0, 0);
+            min-height: 100vh;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            background-color: #98bee4;;
+
+            
         }
 
+
+
         .container {
-            max-width: 600px;
+           width: 50%;
+           overflow-y: scroll;
+           height: 90vh;
+           
             margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
+            padding: 15px 2%;
+            box-shadow: 0 0 5px rgb(0, 2, 3);
+            background-color: #f1f1f1;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: #000000 solid;;
+        }
+        .container{
+            width:  50%;
+            overflow-y: scroll;
+            height: 90vh;
+            padding: 15 px 2%;
+            box-shadow: 0 0 5px #ffecec
+        }
+
+        .container::-webkit-scrollbar{
+           
+            width: 15px;
+            border: 2px solid ;
+        }
+        .container::-webkit-scrollbar-thumb{
+            background-color: rgb(0, 0, 0);
+            border-radius: 6px;
+            ;
         }
 
         h1 {
@@ -33,60 +64,123 @@
             font-size: 16px;
             margin-bottom: 10px;
         }
+
+        .imgredondo {
+
+            border-radius: 60%;
+            width: 200px;
+           
+        }
+
+        .hrdados1{
+
+            border-top: medium dashed #000000;
+            border-bottom: medium dashed #000000;
+            height: 5px;
+            overflow:visible;
+            padding: 0;
+            text-align: center;
+        }
+
+        
+
     </style>
 </head>
+
 <body>
     <div class="container">
 
-    <head>
-     <title>Meu site  2024 atualizado </title>
-    </head>
-    <body>
-          <h1> Nome: Carlos Eduardo dos Santos Lopes</h1>
+        <head>
+            <title>Atividade PG web </title>
+        </head>
 
-          <img src="https://media-gru2-1.cdn.whatsapp.net/v/t61.24694-24/424317264_344826801866663_1293930582894796753_n.jpg?ccb=11-4&oh=01_AdQAy-Cyiz_AQksYEOu5Vtzv77f95iXeo4tyk6xK5I44Kg&oe=65D145F6&_nc_sid=e6ed6c&_nc_cat=101" width="100"
-                         height="100" />
-                <br />
-           <h1>carlos.lopes4@estudante.ifto.edu.br</h1>
-               
-            <h1>Sou de Colinas do Tocantins</h1>
-             
-            <h1> Pincipais habilidades: Java, c, Banco de dados, Didatica Geral!
+        <body>
 
-                 <h1> Cursando Licenciatura em computação </h1>
-                   <h1> Trabalho no são judas </h1>
-                    <h1> Participei de uma prototipação de um projeto voltado para Aprender Libras! </h1>
-
+            
            
-           <form>
-               <form>
-               <label for="Contato:">Contato</label><br />
-               <input type="text" name="name" id="nome" />
-               <br />
-               <label for="Assunto:">Assunto</label><br />
-               <input type="text" name="name" id="nome" />
-               <br />
-                 
-                <label for="Mensagem">Mensagem</label><br/>
-                <textarea rows="5" cols="30"></textarea>
-                <br />
-       
-               <input type="submit" value="Enviar" />
 
-</form>
-                 
-               
+            <br>
+            <center><h1>Carlos Eduardo dos S. Lopes</h1></center>
+            <center> <img src="imagem/IMG_20230420_180520_387.jpg" height="150" class="imgredondo" /> </center>
 
-</form>
+        <br>
+        <h1>E-mail: carlos.lopes4@estudante.ifto.edu.br</h1>
 
+            <h2>Cidade: Colinas do Tocantins-TO</h2>
+
+            <h2>Idade: 19 anos</h2>
+            <hr class="hr_01"><br>
            
+            <h2> Principais habilidades:</h2>
+            
+            <ul>
+                <li>
+                    Java
+                </li>
+                <li>
+                    C
+                </li>
+                <li>
+                    SQL
+                </li>
+                <li>
+                    Didatica Geral
+                </li>
+            </ul>
+            <hr class="hr_01"><br>
+            <h2>Cursos: </h2>
+                <li>Cursando Licenciatura em computação</li> 
+                <li>Fundamentos de Segurança Cibernetica </li> 
+                <hr class="hr_01"><br>
            
-             
-          
+            <h2>Trabalho: </h2>
+            <li>Trabalho em restaurante</li>
+
+            <hr class="hr_01"><br>
+
+            <h2>Participação em projetos:</h2>
+            <li> Participei de uma prototipação de um projeto voltado para Aprender Libras!
+            </li>
+            <hr class="hr_01"><br>
+            <h2>Resumos ou Artigos Publicados:</h2>
+            <li>nenhum</li>
+            <hr class="hr_01"><br>
+            <h2>Softwares Feitos:</h2>
+            <li> Nenhum</li>
+
+            <hr class="hr_01"><br>
+
+            <h2>Contato: </h2>
+
+            <form>
+                <form>
+                    <label for="Nome:">Nome</label><br />
+                    <input type="text" name="name" id="nome" /> <br>
+                    <br />
+                    <label for="Assunto:">Assunto</label><br />
+                    <input type="text" name="name" id="nome" /><br>
+                    <br />
+
+                    <label for="Descrição">Descrição</label><br />
+                    <textarea rows="5" cols="30"></textarea>
+                    <br />
+
+                    <input type="submit" value="Enviar" />
+
+                    <div id="rodape">
+
+                        <br />
+
+                        <footer>
+                            Curriculo PG web, &copy;2024
+                            <article>
+                        </footer>
+                    </div>
+
+                </form>
 
 
 
+            </form>
 
 
-</body>
-</html>
